@@ -89,7 +89,7 @@ $(function () {
                 $.ajax(
                 {
                     type: 'POST', 
-                    url: "app/sendtobase.php",
+                    url: "app/include/sendtobase.php",
                     data: form_data,
                     success: function() 
                     {
