@@ -17,6 +17,7 @@ class Auto {
 interface FirstInterface {
     public function first();
     public function second();
+    public function third();
 }
     
 class someclass implements FirstInterface {
@@ -27,6 +28,12 @@ class someclass implements FirstInterface {
     public function second() {
          echo 'Second method';
     }
+
+    public function third() {
+        echo 'Third method';
+    }
+
+
 }
 
 Class Guest {
